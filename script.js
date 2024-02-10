@@ -1,0 +1,1 @@
+alert("BHai kya kar raha he ")
