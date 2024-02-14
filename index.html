@@ -3,93 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>CSS Selector </title>
+    <style>
+        div{
+            background-color: aqua;
+            color: black;
+        }
+        .Red{
+            background-color: firebrick;
+            color:chartreuse
+        }
+        #green{
+            background-color: black;
+            color: chartreuse;
+        }
+        div >p {
+            background-color: chartreuse;
+            color: black;
+
+        }
+        * {
+            margin:0;
+            padding:0;
+        }
+
+        a:visited{
+            color : red;
+        }
+
+        a:link{
+            color :chartreuse
+        }
+
+        a:hover{
+            background-color: rgb(55, 0, 255);
+        }
+
+        a:active{
+            background-color: darkgreen;
+            color :blanchedalmond
+        }
+    </style>
 </head>
 <body>
-    <script src="script.js"></script>
-    <h1> My Practice web</h1>
-    <img height="400" src="goa.jpg" alt="Goa img">
+    <div>
+        I'm div  tag 
+        <p> I'm Para tag </p>
+    </div>
+
+    <div class="Red">
+        I'm Red Class 
+    </div>
+
+    <div id="green">
+        I'm Green Id div 
+    </div>
+
+    <a href="https://www.google.com"> Open Google </a>
     <br>
-    <u><b><caption> Caption Tag </caption></b></u>
-    <br>
-    <b> Bold Tag </b>
-    <br>
-    <u> Underline Tag</u>
-    <br>
-    <i> Italic Tag</i>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae commodi possimus porro necessitatibus nam aut iusto recusandae! Magni sed, harum error iure obcaecati illo? Iste cum atque nam reprehenderit beatae.</p>
-    <h1> Fenil bhai</h1>
-    <h2> Chota Fenu </h2>
-    <h3> Fenu middle</h3>
-    <h4> Small mini Fenu</h4>
-    <h5> Small pro Fenu </h5>
-    <h6> Small pro max Fenu </h6>
-    <p><a target="_blank" href="https://www.google.com">open Google</a></p>
-    <p><a target="_blank" href="https://www.amazon.com">open Amazon</a></p>
-    <p><a target="_blank" href="https://www.flipkart.com">open Flipkart</a></p>
-    <p><a target="_blank" href="https://www.instagram.com">Open Instagram</a></p>
-    <table>
-
-       
-        <caption>Practice </caption>
-        
-        <h1> Table </h1>
-        <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>City</th>
-        </tr>
-
-        <tr>
-            <td rowspan="2">Fenil</td>
-            <td>20</td>
-            <td>Surat</td>
-        </tr>
-
-        <tr>
-            <td>Kevin</td>
-            <td>21</td>
-            <td>Mumbai</td>
-        </tr>
-
-        <tr>
-            <td colspan="2">Xavier</td>
-            <td>30</td>
-            <td>Goa</td>
-        </tr>
-
-    </table>
-
-    <ol type="A">
-        <li>abc</li>
-        <li>bcd</li>
-    </ol>
-
-    <ol type="a">
-        <li>Fenu</li>
-        <li>Kevu</li>
-    </ol>
-
-    <ol type="I">
-        <li>Fenu</li>
-        <li>Kevu</li>
-    </ol>
-
-    <ol type="i">
-        <li>Fenu</li>
-        <li>Kevu</li>
-    </ol>
-
-    <ul type="square">
-        <li>Gggg</li>
-        <li>ffffF</li>
-    </ul>
-
-    <ul type="circle">
-        <li>dfdfd</li>
-        <li>sdsdssd</li>
-    </ul>
-
+    <a href="https://www.facebook.com"> Open Facebook </a>
 </body>
 </html>
