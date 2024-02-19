@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(190, 190, 186);
+    color:rgb(47, 0, 255);
+}
+h1{
+    color:rgb(243, 5, 247);
+    background-color: aqua;
+}
+td{
+    border: solid black 2px;
+}
+th{
+    border: solid blueviolet 3px;
+}
+ol{
+    background-color: black;
+    color: white;
+    border: solid rgb(248, 219, 5) 4px;
+}
