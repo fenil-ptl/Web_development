@@ -1,0 +1,36 @@
+.mycontent{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    color: rgb(85, 0, 255);
+}
+a{
+    margin-right: 200px;
+}
+#logo{
+    color: orange;
+    font-size: 25px;
+}
+#navbar{
+    background-color: black;
+    height: 60px;
+
+}
+button{
+    background-color: orange;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+#content{
+    height: 700px;
+}
