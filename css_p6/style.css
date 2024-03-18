@@ -1,0 +1,39 @@
+/* a{
+    text-decoration: none;
+    color: aqua;
+}
+ul{
+    list-style-type: none;
+    background-color: rgb(6, 112, 116);
+    display: flex;
+    justify-content: space-evenly;
+    color: aqua;
+    height: 50px;
+    align-items: center;
+}
+#outer{
+    height: 500px;
+    width: 500px;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+}
+
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 72, 0);
+    align-self: self-start;
+} */
+div{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+}
+@media (width : 700px){
+    div{
+        background-color: rgb(173, 20, 20);
+    }
+}
