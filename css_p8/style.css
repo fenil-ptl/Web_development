@@ -1,0 +1,37 @@
+#b{
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    /* background-color: gray; */
+    transform: rotate(300deg);;
+    border: 20px solid red;
+    border-top : 20px solid yellowgreen ;
+    animation: SpinAnimate;
+    animation-duration: 0.5s;
+    animation-iteration-count : infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+#s{
+    width: 70px;
+    height: 70px;
+    /* background-color: wheat; */
+    border-radius: 50%;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    margin-left: 15px;
+
+}
+@keyframes SpinAnimate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
